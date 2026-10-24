@@ -157,7 +157,7 @@ function initContactForm() {
         const whatsappNumber = '5491131098445';
         
         // Abrir WhatsApp con el mensaje prellenado
-        window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
         
         // Resetear el formulario
         form.reset();
